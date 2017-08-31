@@ -8,8 +8,21 @@
 /* Global syles
 ---------------------*/
 body {
-	
+	font-family: 'Open Sans', sans-serif;
 }
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
 
 /* Every link */
 a {
