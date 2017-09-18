@@ -41,6 +41,7 @@ a:hover {
 	max-width: 950px;
 	margin: 0 auto; /* zero for top and botton, auto for left and right*/
 	padding: 50px; /* all the page section using this class will have the same amount of padding*/
+	overflow: auto;
 }
 
 /*h2, p {
@@ -55,8 +56,20 @@ header, footer {
 }
 
 /* header */
+.profile-img {
+	width: 300px;
+	border-radius: 6px;
+	float: left;
+	margin-right;
+}
+
+header{
+	text-align: center;
+}
+
 header h1, header h2 {
 	color: #EDF2F4;
+	margin: 0;
 }
 
 /* footer */
